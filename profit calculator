@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+          Scanner sc= new Scanner(System.in);
+        int u=sc.nextInt();
+        int t=sc.nextInt();
+        int y=sc.nextInt();
+        int p=t-y;
+        int f=(p*u)-100;
+        System.out.println("Number of copies sold:"+u);
+        System.out.println("Cost of each copy:"+t);
+        System.out.println("Cost spent by agency on each newspaper:"+y);
+        System.out.println("The profit obtained is Rs."+f+".00");
+        sc.close();
+
+        
+        
+    }
+}
